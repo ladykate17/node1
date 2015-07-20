@@ -1,5 +1,5 @@
 
-// Part I: Luminosity
+// Part I.2: Luminosity - islight.js
 
 	var red = process.argv[2];
 	var green = process.argv[3];
@@ -27,6 +27,3 @@
 	}
 
 	console.log(  lightness( luminosityResult )  );
-
-
-// Part II: require

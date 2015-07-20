@@ -1,5 +1,5 @@
 
-// Part I: Luminosity
+// Part I.1: Luminosity - luminosity.js
 
 	var red = process.argv[2];
 	var green = process.argv[3];
@@ -11,20 +11,4 @@
 		return result;
 		
 	}
-
-	var luminosityResult = luminosity(red, green, blue);
-	console.log( luminosityResult );
-
-
-	var lightness = function(luminosity){
-
-		if ( luminosityResult > 155 ) {
-			return 'light'
-		}
-		else {
-			return 'dark'
-		}
-	}
-
-	console.log(  lightness( luminosityResult )  );
 
